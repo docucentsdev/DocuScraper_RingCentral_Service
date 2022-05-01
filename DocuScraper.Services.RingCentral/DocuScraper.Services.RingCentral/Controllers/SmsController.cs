@@ -8,7 +8,7 @@ using DocuScraper.Services.RingCentral.Components;
 
 namespace DocuScraper.Services.RingCentral.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class SmsController : ControllerBase
